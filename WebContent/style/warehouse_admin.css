@@ -1,0 +1,90 @@
+
+body {
+    height:730px;
+}
+.section {
+    background-image: url("images/First-Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.table {
+	width: 1200px;
+	margin-left: 50px;
+	line-height: 45px;
+	color: white;
+}
+
+td {
+	font-size: 20px;
+}
+
+th {
+	text-align: left;
+	font-size: 22px;
+	color: #66fc03;
+}
+.padding {
+    padding: 1px;
+}
+.div_table {
+	height: auto;
+	width: 1250px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: black;
+	border-radius: 25px;
+	opacity: 0.5;
+	
+}
+
+.add {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	float: right;
+
+	margin-right: 100px;
+	background-color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.add:hover {
+	color: black;
+	background-color: white;
+}
+
+.update {
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+}
+
+.update:hover {
+	color: black;
+	background-color: white;
+}
+
+.title {
+	font-size: 28px;
+	color: black;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+}
+.status {
+    color: #00ff00;
+    font-size: 25px;
+    text-align: center;
+}
+
+.div_title {
+
+	width: 1300px;
+	height: 90px;
+}

@@ -1,0 +1,56 @@
+body {
+	background-image: url("images/admin_registration_page.jpg");
+	height: auto;
+	width: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.admin_reg_table {
+	border-radius: 25px;
+	float: right;
+	padding-left: 15px;
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	opacity: 0.5;
+}
+
+.admin_form_header {
+	padding: 10px 0px 20px 50px;
+	font-family: serif;
+	font-size: 30px;
+	color: #ffff66;
+}
+
+.admin_fields {
+	font-size: 20px;
+	color: #ffd11a;
+}
+
+.admin_field_submit {
+	opacity: 1;
+	background-color: #333333;
+	padding: 5px 10px 5px 10px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.admin_field_submit:hover {
+	background-color: #ff9900;
+}
+select {
+    width:172px;
+    border-radius: 5px;
+	opacity: 0.6;
+}
+ input {
+	border-radius: 5px;
+	opacity: 0.6;
+}
+.address {
+     width:172px;
+    border-radius: 5px;
+	opacity: 0.6;
+}

@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+body {
+	  height:730px;
+}
+.section {
+background-image: url("images/First-Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.profile_div {
+padding-top: 100px;
+} 
+.row {
+	margin: 5px 0px 5px 200px;
+	font-size: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+.label {
+	color: #ff9900;
+	width: 170px;
+}
+
+.data {
+	width: 170px;
+	border-radius: 5px;
+	background-color: #F2F3F4;
+	margin: 4px 20px 4px 20px;
+	color: #8E02FC;
+}

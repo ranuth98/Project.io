@@ -1,0 +1,26 @@
+
+ .col {
+  display: flex;
+  background-color: #ffaa00; 
+  width:auto;
+
+}
+.section{
+min-height: 500px;	
+   margin-left: -7px;
+    margin-right: -7px;
+}
+.col > div {
+	 text-align: justify;
+	  margin: 5px 0px 5px 0px;
+  background-color:#ffffff;
+  padding: 10px 30px 10px 50px;
+  line-height: 35px;
+  font-size: 20px;
+  	background-color: #d6d6c2;
+  
+}
+.service {
+	color: red;
+	margin-left: 10px;
+}

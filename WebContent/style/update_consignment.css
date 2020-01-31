@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+body {
+    height:730px;
+}
+.section {
+    background-image: url("images/First-Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.consignment {
+padding-top:50px;
+	margin-left: 250px;
+}
+.row_data {
+    color: #ffffff;
+}
+.p {
+	color: #F7FF00;
+	font-size: 20px;
+}
+
+.booked {
+	margin: 10px 50px 5px 170px;
+	height: 200px;
+}
+
+.intransit {
+	margin: 10px 50px 5px 170px;
+	height: 200px;
+}
+
+.delivered {
+	margin: 10px 50px 5px 170px;
+	height: 200px;
+}
+
+.table_header {
+	display: flex;
+	flex-direction: row;
+	color: #ff0000;
+	font-size: 18px;
+	position: sticky;
+	top: 0;
+	position: sticky;
+}
+
+.table_header>div {
+	margin: 10px;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+}
+
+.row>div {
+	margin: 10px;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	color: #ffffff;
+}
+
+.link {
+	text-decoration: none;
+	font-size: 18px;
+	color: #E400FF;
+	margin: 5px;
+	background-color: #FDFEFE;
+	padding: 3px;
+	border-radius: 5px;
+}
+.link:hover { 
+    color:#ffffff;
+    background-color: #E400FF;
+}
+.input {
+	background-color: transparent;
+	border-color: transparent;
+	color: #ffffff;
+}
+.data {
+color: red;
+font-size: 18px;
+}

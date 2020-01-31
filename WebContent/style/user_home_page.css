@@ -1,0 +1,86 @@
+body {
+    height:730px;
+}
+.in_section {
+    margin-left: 100px;
+}
+
+.section {
+    background-image: url("images/First-Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.firstName {
+    color: #ffffff;
+    margin-left: 150px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    height: 50px;
+}
+
+.smile:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.smile {
+    border: 1px solid yellow;
+    margin-top: 24px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.image {
+    border:2px solid #0000ff;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.gallery {
+   
+    margin: 20px;
+    float: left;
+    width: 150px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gallery:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.desc {
+    padding: 0px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div.flex-container {
+    margin-left:300px;
+    margin-top: 100px;
+    height: 410px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

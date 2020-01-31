@@ -1,0 +1,84 @@
+
+
+.logout_status {
+    font-size: 25px;
+    text-align: center;
+    color: green;
+}
+
+.loginform {
+    position: static;
+    margin: 0px 100px 0px 850px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.login_div {
+    opacity: 0.8;
+    border-radius: 25px;
+    background-color: #17202A;
+    margin-top: 170px;
+    height: 300px;
+}
+
+.logintable {
+    padding: 10px 10px 10px 10px;
+    font-size: 20px
+}
+
+.label {
+    padding-top: 20px;
+    margin: 0px 0px 10px 20px;
+    color: #FDFEFE;
+}
+
+.input {
+    margin: 5px 0px 10px 20px;
+}
+
+.button {
+    margin: 0px 0px 20px 40px;
+    padding: 2px 8px 2px 8px;;
+    font-size: 20px;
+    background-color: #85C1E9;
+    border-color: #85C1E9;
+    font-size: 20px;
+}
+
+.loginStatus {
+    color: #ff0000;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.forgotpassword {
+    text-decoration: none;
+    margin: 0px 0px 10px 30px;
+    color: #FDFEFE;
+}
+
+.registration {
+    text-decoration: none;
+    margin: 0px 0px 20px 30px;
+    color: #FDFEFE;
+    font-size: 20px;
+}
+
+.admin, .staff, .user {
+    text-decoration: none;
+    margin: 0px 0px 10px 10px;
+    color: #FDFEFE;
+    font-size: 20px;
+}
+
+.section {
+    min-height: 650px;
+    background-image: url("images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -7px;
+    margin-right: -7px;
+}

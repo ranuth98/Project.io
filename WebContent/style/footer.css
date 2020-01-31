@@ -1,0 +1,35 @@
+.footer {
+    background-color: #243242;
+    position: static;
+    margin-left: -7px; margin-right : -7px;
+    padding: 5px 0px 10px 70px;
+    font-size: 20px;
+    color: #FDFEFE;
+    margin-right: -7px;
+}
+
+.flex-container-footer {
+    display: flex;
+    width: auto;
+}
+
+.flex-container-footer>div {
+    line-height: 25px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
+.copy {
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.img {
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}

@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+body {
+	  height:730px;
+}
+.section {
+background-image: url("images/First-Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.table_header {
+	display: flex;
+	flex-direction: row;
+	margin-left:10px;
+	color: #2717d1;
+	position: sticky;
+	top: 0;
+	color:#ffcc00;
+	font-size: 17px;
+}
+.bill {
+    border-radius:3px;
+    background-color:#ffffff;
+    text-decoration: none;
+    color:#000000;
+    padding: 3px;
+}
+.bill:hover {
+     color:#ffffff;
+     background-color:#000000;
+}
+.table_header>div {
+	margin: 10px;
+	width: 130px;
+	height: 20px;
+	text-align: center;
+}
+
+.row>div {
+	margin: 10px;
+	width: 130px;
+	height: 20px;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.full {
+      margin-left: 10px;
+}
