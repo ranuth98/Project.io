@@ -161,7 +161,7 @@ insert into employee(em_user_name ,em_first_name, em_last_name,
 em_gender,em_email, em_contact_number, em_password, em_salary,
  em_designation,em_permanent_address, em_correspondence_address,
  em_login_type, em_active) values("admin","raghunath","S","Male",
-"admin@cts.com",9876543210,"Sadmin@123",50000,"CEO","AdminAdd","AdminAdd",'a','y');
+"admin@cts.com",9876543210,"Sadmin@123",50000,"CEO","AdminAdd","AdminAdd",'a','y'); --only for Super Admin - username:admin--
 
 insert into employee(em_user_name ,em_first_name, em_last_name, 
 em_gender,em_email, em_contact_number, em_password, em_salary,
